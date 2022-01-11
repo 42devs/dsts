@@ -1,0 +1,26 @@
+{
+  "name": "dsts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Nicolas Martinez V. <nmartinezv@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .ts --ignore-dir .gitignore .",
+    "lint:fix": "eslint --ext .ts --ignore-dir .gitignore . --fix",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "codecov": "^3.8.3",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.3.4",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.5.4"
+  }
+}
